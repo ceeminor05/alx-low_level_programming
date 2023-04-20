@@ -1,4 +1,4 @@
-#include <std=gnu89>
+#include <stdio.h>
 /**
  * main - Entry
  * Return: Always 0
