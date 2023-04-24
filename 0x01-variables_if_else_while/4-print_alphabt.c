@@ -11,18 +11,18 @@ int main(void)
 	{
 		if (alph == 'q')
 		{
-			alph++
+			alph++;
 		}
 		else if (alph == 'e')
 		{
-			alph++
+			alph++;
 		}
 		else
 		{
 			putchar(alph);
 		}
 	}
-	putchar('\n')
+	putchar('\n');
 
 		return (0);
 }
