@@ -9,20 +9,12 @@ int main(void)
 
 	for (alph = 'a'; alph <= 'z'; alph++)
 	{
-		if (alph == 'q')
-		{
-			alph++;
-		}
-		else if (alph == 'e')
-		{
-			alph++;
-		}
-		else
+		if (alph != 'q' && alph != 'e')
 		{
 			putchar(alph);
 		}
 	}
 	putchar('\n');
 
-		return (0);
+	return (0);
 }
