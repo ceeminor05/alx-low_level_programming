@@ -5,7 +5,7 @@
  */
 void print_numbers(void)
 {
-	for (char c = 0; c < 10; c++)
+	for (int c = 0; c < 10; c++)
 	{
 		_putchar(c);
 	}
