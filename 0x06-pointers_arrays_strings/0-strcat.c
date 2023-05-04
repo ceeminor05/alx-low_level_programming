@@ -1,12 +1,11 @@
 #include "main.h"
 /**
- * _strncat - concatenates two strings
+ * _strcat - concatenates two strings
  * @dest: destination
  * @src: source
- * @n:number
  * Return: pointer to n
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
 	int i;
 	int j;
